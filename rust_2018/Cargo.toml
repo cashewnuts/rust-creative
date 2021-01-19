@@ -1,0 +1,14 @@
+[package]
+name = "rust_2018"
+version = "0.1.0"
+authors = ["Tatsuya Kanemoto <cashewnuts903@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.2"
+log = { version = "0.4.13", features = ["max_level_debug", "release_max_level_warn"] }
+env_logger = "0.8.2"
+lazy_static = "1.4.0"
+structopt = "0.3.21"
